@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "bundle": {
+      "type": "care-build-a-bundle",
+      "blocks": {
+        "trust_1": { "type": "trust", "settings": { "icon": "swiss", "title": "Swiss Brand", "text": "Entwickelt in der Schweiz" } },
+        "trust_2": { "type": "trust", "settings": { "icon": "shirt", "title": "Made in Portugal", "text": "Fair & hochwertig produziert" } },
+        "trust_3": { "type": "trust", "settings": { "icon": "return", "title": "14 Tage Rückgabe", "text": "Ungetragene Artikel einfach zurückgeben" } },
+        "trust_4": { "type": "trust", "settings": { "icon": "lock", "title": "Sicher bezahlen", "text": "TWINT, Karte, PayPal & mehr" } }
+      },
+      "block_order": ["trust_1", "trust_2", "trust_3", "trust_4"],
+      "settings": {
+        "slot_count": 3,
+        "discount_percent": 15,
+        "discount_code": "BUNDLE15"
+      }
+    }
+  },
+  "order": ["bundle"]
+}
